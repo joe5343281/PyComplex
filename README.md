@@ -23,8 +23,8 @@ Open .py file in  the same folder to write ``import pycomplex``.
    * Comstruct a pycomplex.Complex object to represent acomplex number
       * Example
          * ``comp = pycomplex.Complex(1, 1)``, ``comp`` represents  ``1 + i``
-         * if constructor without arguments given 
-            * costrutor will use default value, pycomplex.Complex(0, 0).
+      * if constructor without arguments given 
+         * costrutor will use default value, pycomplex.Complex(0, 0).
       
  - - -
 
