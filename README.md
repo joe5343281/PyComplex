@@ -165,7 +165,7 @@ Open .py file in  the same folder to write ``import pycomplex``.
    
  - - -
  
- **``pycomplex.Complex.toString()``** (Function)
+**``pycomplex.Complex.toString()``** (Function)
    * Return a string.
    * Example
    
