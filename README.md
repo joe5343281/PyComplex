@@ -152,7 +152,9 @@ Open .py file in  the same folder to write ``import pycomplex``.
 - - -
 
 **``pycomplex.Complex().parser(string)``** (Function)
+
 ** Notice: It's beta now. **
+   
    * Return a pycomplex.Complex Object
    * Example 
    
