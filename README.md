@@ -8,54 +8,108 @@ It's a simple complex number module to calculate complex number eq:add, sub, mul
 ## How to Use
 Clone/Download this repository.
 
-Put PyComplex.py which the place you want.
+Put pycomplex.py which the place you want.
 
-Open .py file in  the same folder to write ``import PyComplex``.
+Open .py file in  the same folder to write ``import pycomplex``.
 
 ## Class attributes
 
-*   
-   
-         r represents real number 
-         i represents imaginary number  
+* ``r`` represents real number 
+* ``i`` represents imaginary number  
    
 ## Function Examples
 
-* **``PyComplex.Complex(a, b)``** (Constructor)
-   * Example
-      * ``comp = PyComplex.Complex(1, 1)``, ``comp`` represents  ``1 + i``
-      * if constructor without arguments given 
-         * costrutor will use default value, PyComplex.Complex(0, 0).
+**``pycomplex.Complex(a, b)``** (Constructor)
+   * Comstruct a pycomplex.Complex object to represent acomplex number
+      * Example
+         * ``comp = pycomplex.Complex(1, 1)``, ``comp`` represents  ``1 + i``
+         * if constructor without arguments given 
+            * costrutor will use default value, pycomplex.Complex(0, 0).
       
  - - -
 
-**``PyComplex.Complex.__add__(PyComplex.Complex Object)``**  (Magic method)
-   * Operator ``+`` with plus ability to add a PyComplex.Complex Object.
+**``pycomplex.Complex().__add__(pycomplex.Complex Object)``**  (Magic method)
+   * Operator ``+`` with plus ability to add a pycomplex.Complex Object.
+      * Return a pycomplex.Complex object
    * Example
     
-         comp = PyComplex.Complex(1, 1) + PyComplex.Complex(2, 2)
-   * ``comp`` represents ``PyComplex.Complex(3, 3)``
+         comp = pycomplex.Complex(1, 1) + pycomplex.Complex(2, 2)
+      * ``comp`` represents ``pycomplex.Complex(3, 3)``
    
    * Other
       
-         c1 = PyComplex.Complex(1, 1)
-         c2 = PyComplex.Complex(2, 2)
+         c1 = pycomplex.Complex(1, 1)
+         c2 = pycomplex.Complex(2, 2)
          c3 = c1 + c2 
-   ``c3`` also represents ``PyComplex.Complex(3, 3)``
+    
+      * ``c3`` also represents ``pycomplex.Complex(3, 3)``
          
  - - -
 
-**``PyComplex.Complex.__sub__(PyComplex.Complex Object)``** (Magic method)
-   * Operator ``-`` with plus ability to subtract a PyComplex.Complex Object.
+**``pycomplex.Complex().__sub__(pycomplex.Complex Object)``** (Magic method)
+   * Operator ``-`` with plus ability to subtract a pycomplex.Complex Object.
+      * Return a pycomplex.Complex object
    * Example
 
-         comp = PyComplex.Complex(3, 3) - PyComplex.Complex(2, 2)      
-   ``comp`` represents ``PyComplex.Complex(1, 1)``
+         comp = pycomplex.Complex(3, 3) - pycomplex.Complex(2, 2)      
+      * ``comp`` represents ``pycomplex.Complex(1, 1)``
    
    * Other
             
-         c1 = PyComplex.Complex(3, 3)                 
-         c2 = PyComplex.Complex(2, 2)
+         c1 = pycomplex.Complex(3, 3)                 
+         c2 = pycomplex.Complex(2, 2)
          c3 = c1 - c2
-   ``c3`` also represents ``PyComplex.Complex(1, 1)``
+      * ``c3`` also represents ``pycomplex.Complex(1, 1)``
    
+- - -
+
+**``pycomplex.Complex().__mul__(pycomplex.Complex Object)``** (Magic method)
+   * Operator ``*`` with plus ability to multiply a pycomplex.Complex Object.
+      * Return a pycomplex.Complex object
+   * Example
+
+         comp = pycomplex.Complex(1, 1) * pycomplex.Complex(2, 2)      
+      * ``comp`` represents ``pycomplex.Complex(0, 4)``
+   
+   * Other
+            
+         c1 = pycomplex.Complex(1, 1)                 
+         c2 = pycomplex.Complex(2, 2)
+         c3 = c1 * c2
+      * ``c3`` also represents ``pycomplex.Complex(0, 4)``
+
+- - -
+
+**``pycomplex.Complex().__mul__(pycomplex.Complex Object)``** (Magic method)
+   * Operator ``*`` with plus ability to multiply a pycomplex.Complex Object.
+      * Return a pycomplex.Complex object
+   * Example
+
+         comp = pycomplex.Complex(2, 2) * pycomplex.Complex(1, 1)      
+      * ``comp`` represents ``pycomplex.Complex(2, 0)``
+   
+   * Other
+            
+         c1 = pycomplex.Complex(2, 2)                 
+         c2 = pycomplex.Complex(1, 1)
+         c3 = c1 * c2
+      * ``c3`` also represents ``pycomplex.Complex(2, 0)``
+
+- - -  
+
+**``pycomplex.Complex().conj(pycomplex.Complex Object)``** (Function)
+      * Return a pycomplex.Complex object
+   * Example
+   
+         comp = pycomplex.Complex().conj(1, 1)
+      * ``comp`` represents ``pycomplex.Complex(1, -1)``
+   
+   * Other    
+         
+         c1 = pycomplex.Complex(1, 1)
+         c1.conj()
+      * ``comp`` also represents ``pycomplex.Complex(1, -1)``
+
+- - -
+
+**``pycomplex.Complex().ln(pycomplex.Complex Object)``** (Function)   
