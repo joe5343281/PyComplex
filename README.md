@@ -12,8 +12,6 @@ Put pycomplex.py which the place you want.
 
 Open .py file in  the same folder to write ``import pycomplex``.
 
-- - -
-
 ## Class attributes
 
 * ``r`` represents real number 
@@ -132,10 +130,6 @@ Open .py file in  the same folder to write ``import pycomplex``.
    * Example
    
          comp = pycomplex.Complex(1, 1).exp()
-         
- - - -
- 
- **`` ``** (Function)
    
    * Other    
          
@@ -169,4 +163,15 @@ Open .py file in  the same folder to write ``import pycomplex``.
          comp = pycomplex.Complex()
          comp = comp.parser("10+10i")
    
+ - - -
  
+ **``pycomplex.Complex.toString()``** (Function)
+   * Return a string.
+   * Example
+   
+         comp = pycomplex.Complex(1, 1).toString()
+    
+   * Other 
+   
+         comp = pycomplex.Complex(1, 1)
+         print(comp.toString())
