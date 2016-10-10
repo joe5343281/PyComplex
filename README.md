@@ -98,7 +98,7 @@ Open .py file in  the same folder to write ``import pycomplex``.
 - - -  
 
 **``pycomplex.Complex().conj(pycomplex.Complex Object)``** (Function)
-      * Return a pycomplex.Complex object
+   * Return a pycomplex.Complex object
    * Example
    
          comp = pycomplex.Complex().conj(1, 1)
@@ -112,4 +112,43 @@ Open .py file in  the same folder to write ``import pycomplex``.
 
 - - -
 
-**``pycomplex.Complex().ln(pycomplex.Complex Object)``** (Function)   
+**``pycomplex.Complex().ln(pycomplex.Complex Object)``** (Function) 
+   * Return a pycomplex.Complex object
+   * Example
+   
+         comp = pycomplex.Complex(1, 1).ln()
+   
+   * Other    
+         
+         c1 = pycomplex.Complex(1, 1)
+         c1.ln()
+         
+- - -
+
+**``pycomplex.Complex().exp(pycomplex.Complex Object)``** (Function) 
+   * Return a pycomplex.Complex object
+   * Example
+   
+         comp = pycomplex.Complex(1, 1).exp()
+   
+   * Other    
+         
+         c1 = pycomplex.Complex(1, 1)
+         c1.exp()
+         
+- - -
+
+**``pycomplex.Complex().rad()``** (Function) 
+   * Return a value of rad
+   * Example
+   
+         comp = pycomplex.Complex(1, 1).rad()
+   
+   * Other    
+         
+         c1 = pycomplex.Complex(1, 1)
+         c1.rad()
+      
+- - -
+
+**``pycomplex.Complex().parser(string)``** (Function)
