@@ -12,6 +12,8 @@ Put pycomplex.py which the place you want.
 
 Open .py file in  the same folder to write ``import pycomplex``.
 
+- - -
+
 ## Class attributes
 
 * ``r`` represents real number 
@@ -80,8 +82,8 @@ Open .py file in  the same folder to write ``import pycomplex``.
 
 - - -
 
-**``pycomplex.Complex().__mul__(pycomplex.Complex Object)``** (Magic method)
-   * Operator ``*`` with plus ability to multiply a pycomplex.Complex Object.
+**``pycomplex.Complex().__truediv__(pycomplex.Complex Object)``** (Magic method)
+   * Operator ``*`` with plus ability to divide a pycomplex.Complex Object.
       * Return a pycomplex.Complex object
    * Example
 
@@ -130,6 +132,10 @@ Open .py file in  the same folder to write ``import pycomplex``.
    * Example
    
          comp = pycomplex.Complex(1, 1).exp()
+         
+ - - -
+ 
+ **`` ``** (Function)
    
    * Other    
          
@@ -152,3 +158,15 @@ Open .py file in  the same folder to write ``import pycomplex``.
 - - -
 
 **``pycomplex.Complex().parser(string)``** (Function)
+   ** Notice: It's beta now. **
+   * Return a pycomplex.Complex Object
+   * Example 
+   
+         comp = pycomplex.Complex.parser('10+10i)
+         
+   * Other 
+   
+         comp = pycomplex.Complex()
+         comp = comp.parser("10+10i")
+   
+ 
